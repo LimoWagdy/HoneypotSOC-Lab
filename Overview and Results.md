@@ -39,7 +39,7 @@ When zoomed out like this, some of the dots appear to be stacked on the same loc
 \+ Georgia =  1 IP
 
 ## 3.3 Most Attempts per Attacker
-![WorkbookStats2.png](./images/WorkbookStats2.png)
+![WorkbookStats2blured.png](./images/WorkbookStats2blured.png)
 
 ## 3.4 Average Time between Attacks per IP
 ![piechart.png](./images/piechart.png)
