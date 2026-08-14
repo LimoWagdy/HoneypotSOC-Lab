@@ -40,7 +40,7 @@ When zoomed out like this, some of the dots appear to be stacked on the same loc
 
 ## 3.3 Most Attempts per Attacker
 ![WorkbookStats2blurred.png](./images/WorkbookStats2blurred.png)
-Blurred for obvious reasons (i'm a chill guy)
+Blurred cuz i'm a chill guy
 
 ## 3.4 Average Time between Attacks per IP
 ![piechart.png](./images/piechart.png)
