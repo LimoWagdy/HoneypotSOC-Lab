@@ -87,7 +87,7 @@ And added the 'GeoLite2-City.mmdb' path to 'GeoIPFunctionAzure.csproj':
 
 ## 1.2 Azure Logic App
 
-<img src="./images/Logicapp.png" width="1000" height="350">
+![LogicApp.png](./images/LogicApp.png)
 
 The Logic App is triggered every 15 mins using a reoccurring trigger. Then, a 'Run Query and list results' action queries the SecurityEvent table to retrieve all distinct IPs that tried to connect to the VM in the last 20 minutes (EventID=4625 is for failed logins). 
 
