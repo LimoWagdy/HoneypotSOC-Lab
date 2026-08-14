@@ -32,17 +32,17 @@ Finally, this tabled is queried through Sentinel and visualised using Workbooks,
 The honeypot successfully logged failed attempts in the SecurityEvent table under EventID=4625. The IPs were then correctly enriched using MaxMInd's database and the results were visualised in a Sentinel Workbook. The following are a few visualisations I thought would be interesting to look at.
 
 ## 3.1 Heat Map
-<img src="./images/WorkbookMap.png" width="950" height="300">
+![WorkbookMap.png](./images/WorkbookMap.png)
 When zoomed out like this, some of the dots appear to be stacked on the same location but they are actually unique longitudes and latitudes (e.g. Singapore).
 ## 3.2 Attacks per Country & Unique IPs per Country
-<img src="./images/Workbookstats.png" width="600" height="350">
+![WorkbookStats.png](./images/WorkbookStats.png)
 \+ Georgia =  1 IP
 
 ## 3.3 Most Attempts per Attacker
-<img src="./images/Workbookstats2.png" width="600" height="400">
+![WorkbookStats2.png](./images/WorkbookStats2.png)
 
 ## 3.4 Average Time between Attacks per IP
-<img src="./images/piechart.png" width="600" height="200">
+![piechart.png](./images/piechart.png)
 Data taken from the 12th of August, from 13:00-17:00.
 
 ## 3.4 Conclusion and Ways Forward
