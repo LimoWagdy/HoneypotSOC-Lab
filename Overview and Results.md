@@ -20,7 +20,7 @@ These are two files are from MaxMind, GeoLite2Blocks and GeoLite2Locations. I wr
 I finally settled on using their .mmdb file which is much smaller (60MB) and supports binary-search tree lookup which is super fast. To do this, I set up a Function App and a Logic App to send me the enriched IP data (*Automation and Visualisation.md*).
 
 # 2. Logic
-<img src="./images/Projectdiagram.drawio.png" width="950" height="320">
+![Projectdiagram.drawio.png](./images/Projectdiagram.drawio.png)
 
 I just realised that I could've used Event Grid to trigger the Logic App automatically when I run the VM but it's 12am and no one's reading this.
 
